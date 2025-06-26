@@ -1,0 +1,408 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  background-color: #0171f9;
+  border-bottom-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+}
+img:hover {
+  opacity: 0.9;
+}
+.head {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 100px 3% 100px;
+  max-width: 1300px;
+  margin: auto;
+}
+.head img {
+  width: 100px;
+}
+ul {
+  display: flex;
+}
+ul li {
+  list-style: none;
+  padding: 0 1.5em;
+  color: white;
+}
+.links {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  flex-wrap: wrap;
+}
+.welcome {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+.btn {
+  background-color: crimson;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: rgb(246, 61, 98);
+}
+.button {
+  margin-left: -50px;
+}
+.content {
+  display: flex;
+  padding: 30px 100px 5% 100px;
+  max-width: 1300px;
+  margin: auto;
+  align-items: center;
+  color: white;
+}
+.summer {
+  color: black;
+  max-width: 70%;
+  font-weight: bold;
+  margin-bottom: 70px;
+}
+.content img {
+  border-radius: 15px;
+  height: 450px;
+}
+h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.right-content input {
+  padding: 10px;
+  min-width: 30%;
+  border-radius: 130px;
+  outline: none;
+  border: none;
+}
+.title span {
+  color: tomato;
+  font-weight: bold;
+  font-size: 13px;
+}
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.details h2 {
+  font-weight: bold;
+  margin-top: 5px;
+}
+.sec-two {
+  padding: 70px 100px 5% 100px;
+  max-width: 1300px;
+  margin: auto;
+}
+.games {
+  padding-top: 3em;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.games img {
+  width: 100%;
+  height: 80%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-bottom: -3px;
+}
+.game {
+  height: 200px;
+  width: 250px;
+}
+.game-content {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ededed;
+  padding: 15px 10px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  font-weight: bold;
+}
+.title h2 {
+  font-size: 25px;
+}
+.game-content span {
+  font-weight: 100;
+  color: gray;
+}
+.game-content p {
+  margin-top: 5px;
+}
+.game-content img {
+  width: 35px;
+}
+.sec-three {
+  background-color: #ededed;
+  border-radius: 70px;
+}
+.con {
+  max-width: 1300px;
+  padding: 30px 100px 2% 100px;
+  margin: auto;
+}
+.games2,
+.games3 {
+  padding-top: 3em;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.game2 img {
+  width: 100%;
+  height: 135px;
+  border-radius: 20px;
+}
+.game2 {
+  width: 135px;
+}
+.game-content2 {
+  padding: 10px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.game-content2 p {
+  font-weight: bold;
+  font-size: 16px;
+}
+.game-content2 span {
+  color: gray;
+}
+.sec-four {
+  padding-top: 100px;
+}
+.details2 {
+  width: fit-content;
+  text-align: center;
+  margin: auto;
+}
+.details2 span {
+  color: crimson;
+  font-size: 12px;
+  font-weight: bold;
+}
+.details2 p {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.games3 {
+  max-width: 1300px;
+  padding: 50px 100px 5em 100px;
+  margin: auto;
+}
+.game3 img {
+  margin-top: -15px;
+  border-radius: 20px;
+  width: 100%;
+}
+.game3 {
+  width: 190px;
+}
+a {
+  text-decoration: none;
+}
+
+.action {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: #0171f9;
+  padding: 10px;
+  height: 50px;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #0171f9;
+  height: 100px;
+  border-top-left-radius: 70px;
+  border-top-right-radius: 70px;
+}
+footer p {
+  max-width: 90%;
+}
+/*next step make the website responsive */
+@media (min-width: 1151px) and (max-width: 1216px) {
+  .game {
+    height: 200px;
+    width: 225px;
+  }
+  .game3 {
+    width: 181px;
+  }
+}
+@media (min-width: 818px) and (max-width: 1150px) {
+  .content {
+    flex-direction: column;
+    text-align: center;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .summer {
+    max-width: 100%;
+    padding: 0 60px 0 60px;
+  }
+  .right-content {
+    margin-bottom: 30px;
+  }
+  ul li {
+    font-size: 15px;
+    padding: 0 1em;
+  }
+  .game {
+    margin-bottom: 60px;
+  }
+  .games2,
+  .games3,
+  .games {
+    justify-content: center;
+  }
+  .games3 {
+    padding-bottom: 2em;
+  }
+  footer p {
+    font-size: 15px;
+  }
+  .game,
+  .game2,
+  .game3 {
+    padding: 10px;
+  }
+  .game-content2 {
+    text-align: center;
+  }
+}
+@media (min-width: 460px) and (max-width: 817px) {
+  .head {
+    padding: 30px 0px 3% 0px;
+  }
+  .right-content {
+    margin-bottom: 15px;
+  }
+  .head,
+  .content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .summer {
+    max-width: 100%;
+  }
+  ul li {
+    font-size: 15px;
+    padding: 0 0.5em;
+  }
+  .links .btn {
+    padding: 10px;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  .games2,
+  .games3,
+  .games {
+    justify-content: center;
+  }
+  .game,
+  .game2,
+  .game3 {
+    padding: 10px;
+  }
+  .game-content2 {
+    text-align: center;
+  }
+  .game {
+    margin-bottom: 40px;
+  }
+  .details .btn {
+    padding: 10px;
+  }
+  .details h2 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .head {
+    padding: 30px 0px 3% 0px;
+  }
+  .right-content {
+    margin-bottom: 15px;
+  }
+  .head,
+  .content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .summer {
+    max-width: 100%;
+  }
+  ul li {
+    font-size: 10px;
+    padding: 0 0.5em;
+  }
+  .links .btn,
+  .details .btn {
+    padding: 6px 10px;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  .games2,
+  .games3,
+  .games {
+    justify-content: center;
+  }
+  .game,
+  .game2,
+  .game3 {
+    padding: 10px;
+  }
+  .game-content2 {
+    text-align: center;
+  }
+  .game {
+    margin-bottom: 40px;
+  }
+  .sec-two {
+    padding: 30px 70px 5% 70px;
+  }
+  .content img {
+    height: 300px;
+  }
+  .content {
+    padding: 30px 40px 5% 40px;
+  }
+  .games3 {
+    padding: 30px 75px 5em 75px;
+  }
+  .con {
+    padding: 30px 75px 2% 75px;
+  }
+  .details h2 {
+    font-size: 15px;
+  }
+  .title {
+    margin-right: 5px;
+  }
+}
