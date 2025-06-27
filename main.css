@@ -361,7 +361,7 @@ footer p {
     font-size: 10px;
     padding: 0 0.5em;
   }
-  .links ,btn{
+  .links .btn{
             padding: 4px 5px;
         font-size: 10px;
   }
